@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    background-image: url(.//img/Admiral-Club.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 650px;
+    border-radius: 0px 5px 50px 50px;
+}
+
+.head_1 {
+    background: rgba(0, 0, 0, 0.6);
+    width: 600px;
+    height: 120px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.head_ {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.center{
+    padding-top: 200px;
+}
+.center1{
+    display: flex;
+    padding-top: 80px;
+}
+.center_text{
+    padding: 0px 40px 0px 40px;
+}
+.center_text h1{
+font-size: 33px;
+padding-bottom: 49px;
+}
+.center_text p{
+color: rgb(100, 100, 100);
+padding-bottom: 20px;
+}
+.footer{
+    padding-top: 40px;
+}
+.footer2{
+    background: rgba(127, 127, 127, 0.386);
+    width: 600px;
+    height: 120px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer4{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.footer_input input{
+    border: none;
+    background-color: lightgray;
+    padding: 10px;
+   
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center_img img {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+.center_img img:hover {
+    transform: scale(1.2);
+}
